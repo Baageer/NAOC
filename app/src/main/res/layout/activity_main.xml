@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:gravity="center_horizontal"
+    >
+
+    <Button
+        android:id="@+id/BtConnect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/BtConnect"/>
+
+    <Button
+        android:id="@+id/BtControl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/BtControl"/>
+
+    <Button
+        android:id="@+id/BtBehaviors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/BtBehaviors"/>
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <TableRow>
+            <TextView
+                android:text="@string/txIP"
+                android:gravity="right"
+                android:padding="3dp">
+            </TextView>
+            <EditText
+                android:id="@+id/etIP"
+                android:padding="3dp"
+                android:scrollHorizontally="true"
+                android:layout_span="2"
+                />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="@string/txPort"
+                android:gravity="right"
+                android:padding="3dp"/>
+            <EditText
+                android:id="@+id/etPort"
+                android:padding="3dp"
+                android:scrollHorizontally="true"
+                android:layout_span="2"/>
+        </TableRow>
+
+        <TableRow
+            android:gravity="left">
+            <Button
+                android:id="@+id/cleanMes"
+                android:text="@string/btCleanMes"/>
+            <Button
+                android:id="@+id/submitIP"
+                android:text="@string/btSubmitIP"/>
+
+        </TableRow>
+    </TableLayout>
+
+
+</LinearLayout>

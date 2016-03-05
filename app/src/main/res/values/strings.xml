@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">NAOC</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="tvMTitle">NAOC</string>
+    <string name="BtConnect">连接</string>
+    <string name="BtControl">控制</string>
+    <string name="BtBehaviors">Behaviors</string>
+    <string name="txIP">IP：</string>
+    <string name="txPort">端口：</string>
+    <string name="btCleanMes">清空</string>
+    <string name="btSubmitIP">确定</string>
+    <string name="title_activity_connect">ConnectActivity</string>
+    <string name="title_activity_behaviors">BehaviorsActivity</string>
+    <string name="title_activity_control">ControlActivity</string>
+    <string name="btSend">发送</string>
+
+    <string name="btCtrlForward">前</string>
+    <string name="btCtrlBackward">后</string>
+    <string name="btCtrlLeft">左</string>
+    <string name="btCtrlRight">右</string>
+</resources>
